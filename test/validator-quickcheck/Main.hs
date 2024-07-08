@@ -19,7 +19,6 @@ import qualified Data.Aeson.Key as AesonKey
 import qualified Data.Aeson.KeyMap as AKM
 import Data.ByteString.Lazy (toStrict)
 import Data.Either (isLeft, isRight)
-import Data.HashMap.Strict (filterWithKey, lookup)
 import Data.Medea (Schema, loadSchemaFromFile, validate)
 import Data.Text (Text)
 import qualified Data.Vector as V
